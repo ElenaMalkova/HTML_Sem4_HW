@@ -3,12 +3,6 @@
   padding: 0;
 }
 
-body {
-  font-family: 'Gilroy', sans-serif;
-}
-
-
-
 @font-face {
   font-family: 'Gilroy';
   src: url(fonts/gilroy/Gilroy-Medium.ttf) format('truetype');
@@ -29,6 +23,11 @@ body {
   font-style: normal;
   font-weight: 700;
 }
+
+body {
+  font-family: 'Gilroy', sans-serif;
+}
+
 
 a {
   text-decoration: none;
@@ -125,7 +124,7 @@ a {
   border: none;
   border-radius: 50px;
   background-color: #F25822;
-  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+  box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.20);
   color: #FFF;
   font-size: 15px;
   font-style: normal;

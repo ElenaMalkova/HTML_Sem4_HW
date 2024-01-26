@@ -81,7 +81,7 @@ a {
   padding-top: 96px;
   padding-bottom: 97px;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse; /*Нумерация картинок логотипов сохранилась обратная, чтобы не пересохранять — обратный порядок*/
   justify-content: space-between;
   align-items: center;
 }
